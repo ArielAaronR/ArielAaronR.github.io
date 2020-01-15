@@ -5,23 +5,26 @@
 ScrollReveal().reveal(".about", {
   delay: 600,
   easing: "cubic-bezier(.42, 0, .58, 1)",
-  reset: false
-});
-ScrollReveal().reveal(".projects", {
-  delay: 700,
-  easing: "cubic-bezier(.42, 0, .58, 1)",
-  reset: false
+  reset: false,
+  mobile: true
 });
 ScrollReveal().reveal(".skills", {
-  delay: 800,
+  delay: 700,
   reset: false,
-  easing: "cubic-bezier(.42, 0, .58, 1)",
-
+  mobile: true,
+  easing: "cubic-bezier(.42, 0, .58, 1)"
 });
+
 ScrollReveal().reveal(".resume", {
+  delay: 800,
+  easing: "cubic-bezier(.42, 0, .58, 1)",
+  reset: false,
+  mobile: true
+});
+
+ScrollReveal().reveal(".projects", {
   delay: 900,
   easing: "cubic-bezier(.42, 0, .58, 1)",
-  reset: false
+  reset: false,
+  mobile: true
 });
-
-
