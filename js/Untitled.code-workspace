@@ -1,0 +1,17 @@
+{
+  "folders": [
+	{
+		"name": "portfolio",
+		"path": "/Users/aaron/Desktop/CodingDojoFiles/personalProjects/portfolio"
+	},
+	{
+		"name": "PortfolioV2",
+		"path": "/Users/aaron/Desktop/CodingDojoFiles/personalProjects/PortfolioV2"
+	}
+],
+  "settings": {
+    "liveServer.settings.port": 5501,
+    "liveServer.settings.multiRootWorkspaceName": "PortfolioV2",
+    "git.ignoreLimitWarning": true
+  }
+}

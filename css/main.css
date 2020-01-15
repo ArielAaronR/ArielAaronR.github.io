@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url(//db.onlinewebfonts.com/c/0a086e32e41c5e5960b26626757f07f3?family=Apercu);
+@font-face {
+  font-family: "Apercu";
+  src: url("//db.onlinewebfonts.com/t/0a086e32e41c5e5960b26626757f07f3.eot");
+  src: url("//db.onlinewebfonts.com/t/0a086e32e41c5e5960b26626757f07f3.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/0a086e32e41c5e5960b26626757f07f3.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/0a086e32e41c5e5960b26626757f07f3.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/0a086e32e41c5e5960b26626757f07f3.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/0a086e32e41c5e5960b26626757f07f3.svg#Apercu")
+      format("svg");
+}
+
+@import url(//db.onlinewebfonts.com/c/42da5dfa84d510b672ede462e7ed8632?family=Apercu+Light);
+
+@font-face {
+  font-family: "Apercu Light";
+  src: url("//db.onlinewebfonts.com/t/42da5dfa84d510b672ede462e7ed8632.eot");
+  src: url("//db.onlinewebfonts.com/t/42da5dfa84d510b672ede462e7ed8632.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/42da5dfa84d510b672ede462e7ed8632.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/42da5dfa84d510b672ede462e7ed8632.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/42da5dfa84d510b672ede462e7ed8632.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/42da5dfa84d510b672ede462e7ed8632.svg#Apercu Light")
+      format("svg");
+}
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Apercu;
+}
+header {
+  font-family: Apercu Light;
+  height: 100vh;
+}
+header h2 {
+  margin-top: 75px;
+}
+header h3 {
+  margin-top: 100px;
+}
+header h3 .btn-large {
+  margin-top: 15px;
+  text-transform: none;
+  font-size: 24px;
+  font-family: Apercu Light;
+}
+.name {
+  font-family: Apercu;
+  font-weight: 900;
+}
+
+.title {
+  color: #536dfe;
+  text-align: center;
+}
+
+.content {
+  font-size: 20px;
+}
+div {
+  margin-bottom: 50px;
+}
+#skills section {
+  display: inline-block;
+  vertical-align: top;
+}
+#skills li {
+  font-size: 12px;
+}
+.skills span {
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.resume h4 {
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: bottom;
+  color: #536dfe;
+}
+
+.project-title {
+  font-weight: bold;
+  font-size: 18px;
+  display: block;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.project-description {
+  font-size: 14px;
+  vertical-align: bottom;
+}
+
+.card-content {
+  font-size: 14px;
+}
+
+#scrolltop {
+  display: inline-block;
+}
+
+footer {
+  float: right;
+  font-family: Apercu;
+}
+
+footer a {
+  font-size: 24px;
+  margin: 20px;
+  text-decoration: none;
+  color: #536dfe;
+  position: relative;
+}
+
+footer a:hover {
+  color: #536dfe;
+}
+
+footer a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #536dfe;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+footer a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+@media only screen and (max-width: 480px) {
+  .sm-0 {
+    display: none;
+  }
+  header h2 {
+    font-size: 30px;
+  }
+  h3 span {
+    font-size: 24px;
+  }
+  header h3 .btn-large {
+    margin-top: 15px;
+    text-transform: none;
+    font-size: 20px;
+    font-family: Apercu Light;
+  }
+  #top {
+    height: 100vh;
+  }
+  #skills section {
+    padding: 10px;
+  }
+
+  footer a {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 481px) {
+  .md-0 {
+    display: none;
+  }
+  .skills section {
+    padding: 15px;
+  }
+
+  #top {
+    height: 100vh;
+  }
+}
+
+@media only screen and (min-width: 1023px) {
+  .lg-0 {
+    display: none;
+  }
+  .lg-12 {
+    display: block;
+  }
+  .about {
+    display: grid;
+    grid-gap: 60px;
+  }
+  .about .title {
+    grid-column: col / span 2;
+    grid: row;
+  }
+  .about .content {
+    grid-column: col 4 / span 2;
+    grid: row;
+  }
+  .skills {
+    display: grid;
+    grid-gap: 75px;
+  }
+
+  .skills .title {
+    grid-column: col / span 2;
+    grid: row;
+  }
+
+  .skills .content {
+    grid-column: col 4 / span 2;
+    grid: row;
+  }
+  .skills section {
+    padding: 20px;
+  }
+
+  .projects {
+    display: grid;
+    grid-gap: 60px;
+  }
+  .projects .title {
+    grid-column: col / span 2;
+    grid: row;
+  }
+  .projects .content {
+    grid-column: col 4 / span 2;
+    grid: row;
+  }
+}
