@@ -28,3 +28,8 @@ ScrollReveal().reveal(".projects", {
   reset: false,
   mobile: true
 });
+
+
+$(document).ready(function(){
+  $('.carousel').carousel();
+});
