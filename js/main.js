@@ -30,6 +30,3 @@ ScrollReveal().reveal(".projects", {
 });
 
 
-$(document).ready(function(){
-  $('.carousel').carousel();
-});
